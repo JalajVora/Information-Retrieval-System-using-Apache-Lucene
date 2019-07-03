@@ -1,3 +1,4 @@
+#Author: Team JoKeR
 package IR;
 
 import java.io.IOException;
@@ -87,5 +88,3 @@ public class LuceneMain {
 	}
 
 }
-
-
