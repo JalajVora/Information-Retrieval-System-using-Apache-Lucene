@@ -1,7 +1,10 @@
 # Information-Retrieval-System-using-Apache-Lucene-in-JAVA
-Date Created: 20.12.2018
-Java Version (JDK): 10.0.1
-Apache Lucene™ Version: 7.5.0
+
+**Date Created:** 20.12.2018
+
+**Java Version (JDK):** 10.0.1
+
+**Apache Lucene™ Version:** 7.5.0
 
 Source Code is divided into following three files:
 
