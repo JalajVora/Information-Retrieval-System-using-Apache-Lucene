@@ -18,9 +18,14 @@ When static function indexdocs() is called from main function with parameters in
 From SearchFiles.java, Static function perform_search() is invoked from main and parameters like: query, ranking model, indexpath is passed. Inside this function, fields of index needed for search have been declared and have been matched the document/s with the query as indexing is done on field basis. The fields have declared to be title and contents. One more variable for maximum hit display has been created. An index-reader object will be created to read the index directory provided. Then searcher object is created by using index-reader object. Here, Similarity has been initialized according to parameters provided. If ranking model doesn’t match with “VS” or “OK” then program will exit. A standard analyzer has been created and passed to multifield query parser along with fields where it needs to search and match. It stems the query as well and then it creates a Query object by using multifield query parser to parse the query. Later, this value is sent to dosearch() function where it gets the top documents if available, along with scores and total number of hits of documents according to query given. Further if matched (documents being less than 10) then it takes minimum-match (minimum between 10 or the no. Of documents) documents to display the result. A Loop has been used for displaying results. Additionally, file extension has been checked so as to show whether title is html and filename with txt (Extension). After displaying results control is returned to Main() function.
 
 _How to run the Program:_
+
 **Step1:** Keep jar file in your desired location.
+
 **Step2:** Make sure that you have created index directory and document directory which consist of sample files for indexing in desired location.
+
 **Step3:** Open command line and change directory to the directory where jar file has been present.
+
 **Step4:** Enter the command as
 	java –jar [filename].jar “documentPath” “indexPath” “rankingmodel” query
+	
 **Step5:** Results will be displayed on the console.
