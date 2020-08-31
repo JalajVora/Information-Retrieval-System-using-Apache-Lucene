@@ -1,6 +1,10 @@
 # Information-Retrieval-System-using-Apache-Lucene-in-JAVA
 
+This is a command-line based Inforamtion Retrieval System built in JAVA using Apache Lucene search library[^1].
 
+
+
+[^1]: http://lucene.apache.org/java/
 _How to run the Program:_
 
 **Step1:** Keep jar file in your desired location.
