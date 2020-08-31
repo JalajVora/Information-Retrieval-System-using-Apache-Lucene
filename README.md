@@ -13,6 +13,8 @@ To know more about what an individual JAVA files do, please refer the [documenta
 
 
 [^1]: http://lucene.apache.org/java/
+
+***
 ### _How to run the Program:_
 
 **Step1:** Keep jar file in your desired location.
