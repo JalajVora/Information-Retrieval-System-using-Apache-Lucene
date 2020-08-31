@@ -1,6 +1,6 @@
 # Information-Retrieval-System-using-Apache-Lucene-in-JAVA
 
-This is a command-line based Inforamtion Retrieval System built in JAVA using Apache Lucene search library [<sup>^1</sup>].
+This is a command-line based Inforamtion Retrieval System built in JAVA using Apache Lucene search library [<sup>1</sup>](http://lucene.apache.org/java/).
 
 + Using Lucene, it parses and indexs Plain Text and HTML documents that a given folder and its subfolders contain. Also, all parsed files are listed.
 + English language is considered to Stem (e.g. using Porter Stemmer).
@@ -12,7 +12,6 @@ This is a command-line based Inforamtion Retrieval System built in JAVA using Ap
 To know more about what an individual JAVA files do, please refer the [documentation.](https://github.com/JalajVora/Information-Retrieval-System-using-Apache-Lucene/blob/master/docs/Programming_documentation.pdf)
 
 
-[^1]: http://lucene.apache.org/java/
 
 ***
 ### _How to run the Program:_
