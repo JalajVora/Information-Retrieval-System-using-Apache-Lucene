@@ -9,7 +9,8 @@ _How to run the Program:_
 
 **Step3:** Open command line and change directory to the directory where jar file has been present.
 
-**Step4:** Enter the command as
-	`java -jar IR_P.jar [path to document folder] [path to index folder] [VS/OK] [query]`
+**Step4:** Enter the command as:
+
+`java -jar IR_P.jar [path to document folder] [path to index folder] [VS/OK] [query]`
 	
 **Step5:** Results will be displayed on the console.
